@@ -1,0 +1,12 @@
+    <script>
+           var nilai = prompt("Usia:");
+        var ratingFilm = "";
+
+        if(Usia >= 21) ratingFilm = "Dewasa"
+        else if(Usia >= 13) ratingFilm = "Remaja"
+        else if(Usia >= 9) ratingFilm = "bimbinganOrangTua"
+        else if(Usia < 9) ratingFilm = "semuaUsia"
+        
+
+        document.write(`<p>output: ${ratingFilm}</p>`);
+    </script>
