@@ -1,0 +1,21 @@
+   <script>
+         
+         function checkLeapYear(year) {
+
+const leap = new Date(year, 1, 29).getDate() === 29;
+if (leap) {
+    console.log(year + ' tahun kabisat');
+} else {
+    console.log(year + ' bukan tahun kabisat');
+}
+}
+
+
+// take input
+const tahun = prompt('masukan tahun:');
+
+checkLeapYear(year);
+        
+
+       
+    </script>
