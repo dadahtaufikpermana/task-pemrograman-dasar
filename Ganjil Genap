@@ -1,0 +1,15 @@
+    <script>
+           var angka = prompt(angka);
+        var ganjilGenap = "";
+
+        if (angka%2==0)
+
+   console.log=("Angka adalah bilangan genap");
+   
+else
+
+   console.log=("Angka adalah bilangan ganjil");
+        
+
+        document.write(`bilangan<p>: ${ganjilGenap}</p>`);
+    </script>
